@@ -1,0 +1,106 @@
+body
+{
+  background-color:#3C3D37;
+  font-family: cursive;
+}
+.container
+{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto;
+  gap: 50px;
+}
+.main
+{
+  
+ 
+  color:#ECDFCC;
+  text-align: center;
+  grid-column: span 2;
+  
+  
+}
+.main > img
+{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+.summary
+{
+  
+  
+  color: #ECDFCC;
+  text-align: center;
+  text-align: justify;
+  grid-column: span 2;
+}
+p
+{
+  font-size: x-large;
+  
+}
+.skills > img
+{
+  height: 200px;
+  width: 200px;
+  float: left;
+  margin-right: 200px;
+}
+.skills
+{
+  
+  
+  color: #ECDFCC;
+  text-align: center;
+  grid-column: span 2;
+}
+li
+{
+  list-style: none;
+  font-size: x-large;
+  text-align: center;
+  text-align: justify;
+}
+.contact
+{
+  
+  
+  color: #ECDFCC;
+  text-align: center;
+  grid-column: span 2;
+}
+.btn
+{
+  background-color: #697565;
+  border: none;
+  color:black;
+  padding:15px 15px 15px 15px;
+  border-radius: 15px;
+  text-decoration: none;
+  
+}
+.button
+{
+  display: flex;
+  justify-content: center;
+}
+.foot
+{
+  background-color: #697565;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+.links
+{
+  display: flex;
+  justify-content: center;
+  gap:10px;
+  
+}
+a{
+  text-decoration: none;
+  margin-top: 50px;
+  color: #212121;
+  font-size: x-large;
+}
